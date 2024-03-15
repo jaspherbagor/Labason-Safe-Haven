@@ -1,4 +1,4 @@
-@section('navbar')
+@section('navbar_layout')
 <nav class="navbar navbar-expand-lg bg-danger px-4">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">

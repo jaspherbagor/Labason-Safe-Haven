@@ -37,9 +37,15 @@ html, body {
 
 .btn-register:hover, .btn-login:hover {
     background: var(--text-color-light);
-    border: 2px solid var(--text-color-dark);
+    border: 2px solid var(--primary-color);
     color: var(--text-color-dark)
 }
+
+
+
+
+
+
 
 .hero-heading {
     letter-spacing: 2.5px;

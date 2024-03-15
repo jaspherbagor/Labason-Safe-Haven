@@ -16,8 +16,8 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="{{ asset('images/img-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
-            <div class="carousel-caption position-absolute">
-                <h1 class="display-2">First slide label</h1>
+            <div class="carousel-caption position-absolute w-100 px-md-4 px-2">
+                <h1 class="">Discover Comfortable Retreats for Unforgettable Experiences</h1>
                 <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>

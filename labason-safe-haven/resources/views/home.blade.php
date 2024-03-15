@@ -8,4 +8,5 @@
     </div>
     
 </section>
+@include('layouts.client.footer')
 @endsection

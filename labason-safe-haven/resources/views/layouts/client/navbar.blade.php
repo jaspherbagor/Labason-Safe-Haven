@@ -1,5 +1,5 @@
 @section('navbar_layout')
-<nav class="navbar navbar-expand-lg bg-danger px-4">
+<nav class="navbar navbar-expand-lg bg-dark px-4">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="{{ asset('images/logo.png') }}" class="logo-img" alt="">

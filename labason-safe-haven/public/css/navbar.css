@@ -44,3 +44,10 @@ html, body {
 .hero-heading {
     letter-spacing: 2.5px;
 }
+
+.carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

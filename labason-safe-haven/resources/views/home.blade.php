@@ -2,7 +2,7 @@
 
 @section('content')
 @include('layouts.client.navbar')
-<section class="hero-section container-fluid bg-secondary d-flex align-items-center justify-content-center">
+<section class="hero-section container-fluid d-flex align-items-center justify-content-center">
     {{-- <div class="container hero-text text-center">
         <h1 class="fw-medium display-3 hero-heading heading">FIND YOUR NEXT HOME</h1>
         <p class="fs-5 sub-heading">A place where you feel safe and at peace</p>
@@ -17,7 +17,7 @@
           <div class="carousel-item active">
             <img src="{{ asset('images/img-1.jpg') }}" class="d-block w-100 img-fluid" alt="...">
             <div class="carousel-caption position-absolute w-100 px-md-4 px-2">
-                <h1 class="">Discover Comfortable Retreats for Unforgettable Experiences</h1>
+                <h1 class="display-2">Discover Comfortable Retreats for Unforgettable Experiences</h1>
                 <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 @section('navbar_layout')
-<nav class="navbar navbar-expand-lg px-md-4 px-sm-4 px-2">
+<nav class="navbar navbar-expand-lg px-md-4 px-sm-4 px-2 position-fixed container-fluid bg-transparent">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="{{ asset('images/logo.png') }}" class="logo-img" alt="">
@@ -11,14 +11,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link me-2 fw-medium fs-6" href="#">HOME</a>
+                    <a class="nav-link me-2 fw-medium fs-6 text-white" href="#">HOME</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link me-2 fw-medium fs-6" href="#">ABOUT</a>
+                    <a class="nav-link me-2 fw-medium fs-6 text-white" href="#">ABOUT</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle fw-semibold fs-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle fw-semibold fs-6 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     ROOMS
                 </a>
                 <ul class="dropdown-menu">
@@ -30,10 +30,10 @@
                 </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-2 fw-medium fs-6" href="#">FAQs</a>
+                    <a class="nav-link me-2 fw-medium fs-6 text-white" href="#">FAQs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-2 fw-medium fs-6" href="#">CONTACT</a>
+                    <a class="nav-link me-2 fw-medium fs-6 text-white" href="#">CONTACT</a>
                 </li>
             </ul>
             <div class="d-flex align-items-center justify-content-center">
